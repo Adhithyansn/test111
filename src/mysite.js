@@ -34,7 +34,7 @@ const Portfolio = () => {
       <nav className="fixed w-full bg-black/90 backdrop-blur-sm border-b border-white/10 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <a href="#" className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
+            <a  className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
               Portfolio
             </a>
             
@@ -84,7 +84,7 @@ const Portfolio = () => {
 " className="p-2 hover:text-yellow-500 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="p-2 hover:text-yellow-500 transition-colors">
+            <a  className="p-2 hover:text-yellow-500 transition-colors">
               <Mail size={24} />
             </a>
           </div>
