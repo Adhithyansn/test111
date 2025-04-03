@@ -1,1 +1,1 @@
- react developed project
+ react project
