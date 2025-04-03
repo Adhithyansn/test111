@@ -1,5 +1,5 @@
  react project
-Sure! Here's a quick intro for you:
+
 
 ---
 
