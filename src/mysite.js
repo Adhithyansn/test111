@@ -46,6 +46,7 @@ const Portfolio = () => {
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
 
+
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="hover:text-yellow-500 transition-colors">About</a>
