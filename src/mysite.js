@@ -99,8 +99,8 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-4 text-gray-800">
               <p>
-                I'm a passionate developer with expertise in building modern web applications.
-                With 5+ years of experience in full-stack development, I specialize in
+                I'm a passionate web application developer with expertise in building modern web applications.
+                With 1+ years of experience in full-stack development, I specialize in
                 creating responsive and user-friendly applications.
               </p>
               <p>
