@@ -82,7 +82,7 @@ const Portfolio = () => {
               <Github size={24}/>
             </a>
             <a href="www.linkedin.com/in/adhi12323
-" className="p-2 hover:text-yellow-500 transition-colors">
+" className="p-2 hover:text-yellow-500 transition-colors text">
               <Linkedin size={24} />
             </a>
             <a  className="p-2 hover:text-yellow-500 transition-colors">
