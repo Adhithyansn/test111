@@ -104,7 +104,7 @@ const Portfolio = () => {
                 creating responsive and user-friendly applications.
               </p>
               <p>
-                My tech stack includes React, React Native, Python, and various modern web technologies.
+                My tech stack includes React, React Native, .Net and various modern web technologies.
                 I'm always eager to learn new technologies and tackle challenging projects.
               </p>
             </div>
