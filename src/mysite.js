@@ -3,10 +3,11 @@ import { Github, Linkedin, Mail, ExternalLink, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import './index.css';
 import './App.css';
-
+import FuzzyText from './fuzzytext';
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const [hoverIntensity, setHoverIntensity] = useState(0.5);
+  const [enableHover, setEnableHover] = useState(true);
   const projects = [
     {
       title: "Project 1",
@@ -71,6 +72,13 @@ const Portfolio = () => {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900 pt-16">
         <div className="max-w-6xl mx-auto px-4 py-20 text-center">
+        <FuzzyText 
+  baseIntensity={0.2} 
+  hoverIntensity={hoverIntensity} 
+  enableHover={enableHover}
+>
+  404
+</FuzzyText>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
             Adhithyan SN
           </h1>
