@@ -2,6 +2,7 @@ import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import FallingText from './falltxt';
+import PixelCard from './pixelcard';
 import './index.css';
 import './App.css';
 import FuzzyText from './fuzzytext';
@@ -72,38 +73,48 @@ const Portfolio = () => {
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900 pt-16">
-        <div className="max-w-6xl flex w-1/2  mx-auto px-4 py-20 text-center">
-          <div className="secondiv ">
-            hello
-            </div>
-          <div className='firstdiv'>
-        <FuzzyText 
-  baseIntensity={0.2} 
-  hoverIntensity={hoverIntensity} 
-  enableHover={enableHover}
->
-  404
-</FuzzyText>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
-            Adhithyan SN
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            Full Stack Developer & UI/UX Designer
-          </p>
-          <div className="flex justify-center space-x-4">
-            <a href="https://github.com/Adhithyansn" className="p-2 hover:text-yellow-500 transition-colors">
-              <Github size={24}/>
-            </a>
-            <a href="www.linkedin.com/in/adhi12323
-" className="p-2 hover:text-yellow-500 transition-colors text">
-              <Linkedin size={24} />
-            </a>
-            <a  className="p-2 hover:text-yellow-500 transition-colors">
-              <Mail size={24} />
-            </a>
-          </div>
-          </div></div>
-      </section>
+  <div className="max-w-6xl w-full flex flex-col md:flex-row mx-auto px-4 py-20">
+    <div className="w-full md:w-1/3 mb-8 md:mb-0 flex justify-center">
+      <div className="relative">
+        <PixelCard variant="yellow" className="card-container">
+          <img 
+            src="bike.jpg" 
+            alt="Profile" 
+            className="absolute inset-0 w-full h-full object-cover rounded-2xl opacity-60 z-10" 
+          />
+          {/* You can add additional content on top of the image if needed */}
+        </PixelCard>
+      </div>
+    </div>
+    
+    <div className='w-full md:w-2/3 flex flex-col justify-center items-center md:items-start'>
+      <FuzzyText 
+        baseIntensity={0.2} 
+        hoverIntensity={hoverIntensity} 
+        enableHover={enableHover}
+      >
+        404
+      </FuzzyText>
+      <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent whitespace-nowrap">
+        Adhithyan SN
+      </h1>
+      <p className="text-xl md:text-2xl text-gray-300 mb-8">
+        Full Stack Developer & UI/UX Designer
+      </p>
+      <div className="flex justify-center space-x-4">
+        <a href="https://github.com/Adhithyansn" className="p-2 hover:text-yellow-500 transition-colors">
+          <Github size={24}/>
+        </a>
+        <a href="https://www.linkedin.com/in/adhi12323" className="p-2 hover:text-yellow-500 transition-colors text">
+          <Linkedin size={24} />
+        </a>
+        <a className="p-2 hover:text-yellow-500 transition-colors">
+          <Mail size={24} />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
