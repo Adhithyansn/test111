@@ -72,7 +72,11 @@ const Portfolio = () => {
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900 pt-16">
-        <div className="max-w-6xl mx-auto px-4 py-20 text-center">
+        <div className="max-w-6xl flex w-1/2  mx-auto px-4 py-20 text-center">
+          <div className="secondiv ">
+            hello
+            </div>
+          <div className='firstdiv'>
         <FuzzyText 
   baseIntensity={0.2} 
   hoverIntensity={hoverIntensity} 
@@ -98,7 +102,7 @@ const Portfolio = () => {
               <Mail size={24} />
             </a>
           </div>
-        </div>
+          </div></div>
       </section>
 
       {/* About Section */}
