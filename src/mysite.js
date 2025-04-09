@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import FallingText from './falltxt';
 import './index.css';
 import './App.css';
 import FuzzyText from './fuzzytext';
@@ -133,6 +134,7 @@ const Portfolio = () => {
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-black">
         <div className="max-w-6xl mx-auto px-4">
+          
           <h2 className="text-4xl font-bold mb-12 text-center">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
@@ -163,7 +165,8 @@ const Portfolio = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-black text-center">Get In Touch</h2>
+    
+          {/* <h2 className="text-4xl font-bold mb-8 text-black text-center">Get In Touch</h2>
           <div className="max-w-xl mx-auto">
             <form className="space-y-6">
               <div>
@@ -194,15 +197,24 @@ const Portfolio = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* Footer */}
       <footer className="bg-black py-8">
-        <div className="max-w-6xl mx-auto px-4 text-center text-gray-400">
-          <p>© 2025 John Doe. All rights reserved.</p>
-        </div>
+      <FallingText
+  text={`React .net  golang js html javascript css typescript reactNative React .net  golang js html javascript css typescript reactNative`}
+  effectStarted={true}
+  highlightWords={["React", "reactNative", "animated", "components", "simplify"]}
+  highlightClass="highlighted"
+  trigger="hover"
+  backgroundColor="transparent"
+  wireframes={false}
+  gravity={0.1}
+  fontSize="2rem"
+  mouseConstraintStiffness={0.9}
+/>
       </footer>
     </div>
   );
