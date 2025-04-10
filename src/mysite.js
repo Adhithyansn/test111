@@ -38,7 +38,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <a  className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
-              Portfolio
+              PortFolio
             </a>
             
             {/* Mobile Menu Button */}
