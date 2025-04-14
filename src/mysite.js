@@ -52,6 +52,8 @@ const Portfolio = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
+                            <a href="#about" className="hover:text-yellow-500 transition-colors">About</a>
+
               <a href="#about" className="hover:text-yellow-500 transition-colors">About</a>
               <a href="#projects" className="hover:text-yellow-500 transition-colors">Projects</a>
               <a href="#contact" className="hover:text-yellow-500 transition-colors">Contact</a>
@@ -93,7 +95,7 @@ const Portfolio = () => {
         hoverIntensity={hoverIntensity} 
         enableHover={enableHover}
       >
-        404
+        200
       </FuzzyText>
       <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent whitespace-nowrap">
         Adhithyan SN
