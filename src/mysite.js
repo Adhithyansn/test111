@@ -95,7 +95,7 @@ const Portfolio = () => {
         hoverIntensity={hoverIntensity} 
         enableHover={enableHover}
       >
-        777
+        333
       </FuzzyText>
       <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent whitespace-nowrap">
         Adhithyan SN
@@ -152,7 +152,7 @@ const Portfolio = () => {
       <section id="projects" className="py-20 bg-black">
         <div className="max-w-6xl mx-auto px-4">
           
-          <h2 className="text-4xl font-bold mb-12 text-center">Featured Projects</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center">The Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <div key={index} className="bg-gray-900 rounded-lg overflow-hidden border border-gray-800 hover:border-yellow-500 transition-colors">
