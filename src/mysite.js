@@ -37,7 +37,7 @@ const Portfolio = () => {
       <nav className="fixed w-full bg-black/90 backdrop-blur-sm border-b border-white/10 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <a  className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
+            <a  className="text-2xl font-bold adhi bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
               PortFolio
             </a>
             
