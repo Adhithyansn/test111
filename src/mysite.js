@@ -95,7 +95,7 @@ const Portfolio = () => {
         hoverIntensity={hoverIntensity} 
         enableHover={enableHover}
       >
-        777
+        333
       </FuzzyText>
       <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent whitespace-nowrap">
         Adhithyan SN
