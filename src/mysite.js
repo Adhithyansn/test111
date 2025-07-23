@@ -52,7 +52,7 @@ const Portfolio = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
-                            <a href="#about" className="hover:text-yellow-500 transition-colors">About</a>
+                            <a href="#about" className="hover:text-yellow-500 transition-colors">Home</a>
 
               <a href="#about" className="hover:text-yellow-500 transition-colors">About</a>
               <a href="#projects" className="hover:text-yellow-500 transition-colors">Projects</a>
