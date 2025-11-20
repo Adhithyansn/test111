@@ -8,7 +8,7 @@ const FuzzyText = ({
   color = "#fff",
   enableHover = true,
   baseIntensity = 0.18,
-  hoverIntensity = 0.5,
+  hoverIntensity = 0.6,
 }) => {
   const canvasRef = useRef(null);
 
